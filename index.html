@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bank_calculation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Let Get Some Money</h1>
+      <div class="Box_one">
+        <div class="Deposit">
+          <h1>Deposite : <span id="total_deposit">500</span></h1>
+        </div>
+        <div class="Widthrow">
+          <h1>Widthraw : <span id="widthrow_balance">500</span></h1>
+        </div>
+        <div class="balance">
+          <h1>balance : <span id="total_balance">00</span></h1>
+        </div>
+      </div>
+      <div class="box_two">
+        <div class="Deposit_amount">
+          <h1>please Deposite</h1>
+          <input
+            id="deposit_input"
+            class="depo"
+            type="text"
+            placeholder="Deposit Quantit"
+          />
+          <button id="add_btn">DEPOSITE</button>
+        </div>
+        <div class="Widthrow_amount">
+          <h1>Widthraw Amount </h1>
+          <input
+            id="Widthrow_input"
+            class="Widthraw_quantiti"
+            type="text"
+            placeholder="Widthrow Quantiti"
+          />
+          <button id="widthraw_btn">WIDTHRAW</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

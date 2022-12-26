@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+.Box_one {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+.Deposit,
+.Widthrow,
+.balance {
+  width: 340px;
+  background: aqua;
+  text-align: center;
+  padding: 50px;
+  height: 70px;
+  border-radius: 10px;
+  box-shadow: 8px 9px 8px black;
+
+}
+.Widthrow {
+  background: rgb(223, 180, 123);
+}
+.Balnce {
+  background: aquamarine;
+}
+.box_two {
+  display: flex;
+  gap: 198px;
+  margin-top: 90px;
+}
+.Deposit_amount {
+  width: 340px;
+  background: bisque;
+  text-align: center;
+  padding: 50px;
+  height: 130px;
+  border-radius: 10px;
+  box-shadow: 8px 9px 8px black;
+}
+.Widthrow_amount {
+  width: 340px;
+  background: rgb(220, 132, 24);
+  text-align: center;
+  padding: 50px;
+  height: 130px;
+  border-radius: 10px;
+  box-shadow: 8px 9px 8px black;
+}
+
+.depo,
+.Widthraw_quantiti {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: initial;
+  margin-top: 5px;
+  border: 1px solid black;
+  letter-spacing: 2px;
+}
+#add_btn,
+#widthraw_btn {
+  width: 50%;
+  margin-top: 18px;
+  background: #227c70;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  box-shadow: 2px 3px 5px black;
+}
+span{
+  color:red
+}
